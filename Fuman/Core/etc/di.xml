@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+        <preference for="Fooman\PdfCore\Model\Config\Source\LogoPlacement" type="Fuman\Core\Model\Config\Source\LogoPlacement" />
+        <preference for="Fooman\PdfCore\Helper\Logo" type="Fuman\Core\Helper\Logo" />
+        <preference for="Fooman\PdfCustomiser\Block\AbstractSalesDocument" type="Fuman\Core\Block\AbstractSalesDocument" />        
+</config>
